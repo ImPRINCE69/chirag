@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Incline_dumbellpress">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:id="@+id/gif1"
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:background="@drawable/inclinegif" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="#3D3434"
+                android:gravity="center"
+                android:text="Incline-Dumbell press *6"
+                android:textColor="#FFC107"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*      Lie back on an incline bench with a dumbbell in each hand atop your thighs.\n
+        *      The palms of your hands will be facing each other.\n
+        *      Then, using your thighs to help push the dumbbells up, lift the dumbbells one at a time so that you can hold them at shoulder width."
+                android:textColor="#FFC107"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

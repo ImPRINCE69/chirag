@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511118126498",
+    "firebase_url": "https://fitness-factory-d2c24.firebaseio.com",
+    "project_id": "fitness-factory-d2c24",
+    "storage_bucket": "fitness-factory-d2c24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511118126498:android:8e4bcd1b342b8dc08356fb",
+        "android_client_info": {
+          "package_name": "com.example.fitnessfactory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511118126498-bkbucfhbsgo4t9jbsobn5mbi0160llgm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnessfactory",
+            "certificate_hash": "a8d2f6a29a067c76f3066f39457083cc97bb1bc1"
+          }
+        },
+        {
+          "client_id": "511118126498-5inc8mtr32ftifqalt1i79j1jqspupvn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN0UW6pVFuYQ-4lVsJ7fSBndNetsTzBm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511118126498-5inc8mtr32ftifqalt1i79j1jqspupvn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pike"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:background="@drawable/pikegif" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:background="#3D3434"
+                android:gravity="center"
+                android:text="Incline-Dumbell press *6"
+                android:textColor="#FFC107"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * Assume a pushup position on the floor. Your arms should be straight and your hands should be shoulder-width apart.
+        \n * Now lift up your hips so that your body forms an upside down V. Your legs and arms should stay as straight as possible.
+        \n * Bend your elbows and lower your upper body until the top of your head nearly touches the floor.
+        \n * Pause, and then push yourself back up until your arms are straight. "
+                android:textColor="#FFC107"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

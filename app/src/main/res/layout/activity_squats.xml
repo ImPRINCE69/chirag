@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Squats"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <pl.droidsonroids.gif.GifImageButton
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:background="@drawable/squatsgif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:background="#3D3434"
+                android:gravity="center"
+                android:text="Squats"
+                android:textColor="#FFC107"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" * Stand with your feet apart, directly under your hips, and place your hands on your hips.
+        \n\n * Standing up tall, put your shoulders back, lift your chest, and pull in your abdominal muscles.
+        \n\n * Bend your knees while keeping your upper body as straight as possible, as if you were lowering yourself onto a seat behind you. Lower yourself as far as you can without leaning your upper body more than a few inches forward.
+        \n\n * Being careful not to lock your knees when you reach a standing position, straighten your legs.
+        \n\n * Repeat for three sets of 10 to 15 reps."
+                android:textColor="#FFC107"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
